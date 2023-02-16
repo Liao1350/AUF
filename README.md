@@ -1,7 +1,7 @@
 ## 程式簡介
 程式叫做Almost Union-Find，功能則是來自[UVa11987](https://onlinejudge.org/external/119/11987.pdf)的題目要求，以Disjoint Set的資料結構實作，並做成簡易的CLI程式。
 
-## 程式原理
+## 程式原理 
 - Find函式（核心功能）
 
 回傳x的父節點。  
@@ -32,13 +32,17 @@ x為欲知其父節點的集合，如果小於0的話代表本身為父節點，
 
 ## 程式演示
 - 初始化程式以及指令表
+
 ![image](https://user-images.githubusercontent.com/124888991/218033660-146c4782-7584-4518-b226-3a7fb53060ce.png)
 
 - Union指令和Sum指令
+
 ![image](https://user-images.githubusercontent.com/124888991/218034672-6aba55c9-baf2-4f5f-9de3-dc17fc6339d9.png)
 
 - Move指令和Sum指令
+
 ![image](https://user-images.githubusercontent.com/124888991/218034827-88e1889a-efe7-482a-926f-2574e8f207af.png)
 
 - Quit 指令
+
 ![image](https://user-images.githubusercontent.com/124888991/218035660-51ac4b5f-5a01-410a-a229-291c2a9e20f4.png)
